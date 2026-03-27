@@ -48,16 +48,3 @@ HevNas-App is a simple and lightweight web application that uses deep learning t
     streamlit run app.py
    ```
 
-
-📂 Project Structure
-├── app.py              # Streamlit app entry point
-├── requirements.txt    # Dependencies
-├── data/
-│   └── image_utils.py  # Image preprocessing utilities
-├── inference/
-│   └── predict.py      # Prediction logic
-├── model/
-│   ├── model.py        # CNN architecture (KlebJeb)
-│   └── load_model.py   # Model loading utilities
-└── models/
-    └── KlebJeb.pt      # Pre-trained weights
